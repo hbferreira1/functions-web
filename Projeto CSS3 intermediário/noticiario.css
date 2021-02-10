@@ -1,0 +1,31 @@
+body{
+	background: gray;
+}
+
+.noticiario {
+	border: 15px outset blue;
+	margin: 20px;
+	background: #4f4f4f;
+	background-color:black 
+	color: black;
+	text-align: center;
+}
+
+.materia {
+	color: black;
+	border: 10px inset red;
+	margin: 15px;
+	padding: 50px;
+}
+.materia2 {
+	color: black;
+	border: 10px inset white;
+	margin: 15px;
+	padding: 50px;
+}
+.materia3 {
+	color: black;
+	border: 10px solid white;
+	margin: 15px;
+	padding: 50px;
+}

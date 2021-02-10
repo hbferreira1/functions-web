@@ -1,0 +1,96 @@
+<!DOCTYPE html>
+<html>
+	<head>
+		<title>Posicionamentos (Static, relative, absolute e fixed)</title>
+		<meta charset="utf-8">
+		<style type="text/css">
+			body {
+				background: #007fc7;
+			}
+
+			h1 {
+				position: static;
+			}
+
+			p {
+				width: 300px;
+			}
+			
+			.container {
+				background: #FFF;
+				width: 800px;
+				margin: 10px auto;
+				padding: 10px;
+				position: relative;
+			}
+
+			.fixed {
+				border: 1px solid red;
+				background: #f2f2f2;
+				position: fixed;
+				top: 0px;
+				left: 0px;
+				margin: 0px;
+
+			}
+
+			.relative {
+				border: 1px solid red;
+				position: relative;
+				/*top, right, bottom e left*/
+				top: 20px;
+				left: 80px;
+				/*alinhamento o elemento baseado na sua posição inicial*/
+			}
+
+		</style>
+	</head>
+	<body>
+		<div class="container">
+			<h1>Posicionamento</h1>
+			<p>
+				 P1 Lorem ipsum dolor sit amet, consectetur adipiscing elit. 
+	 	Vestibulum elementum pretium mi in euismod. Maecenas eleifend
+	 	eu erat sit amet vulputate.
+			</p>
+			<p class="fixed">
+				P2 Lorem ipsum dolor sit amet, consectetur adipiscing elit. 
+	 	Vestibulum elementum pretium mi in euismod. Maecenas eleifend
+	 	eu erat sit amet vulputate.
+			</p>
+			<p>
+				P3 Lorem ipsum dolor sit amet, consectetur adipiscing elit. 
+	 	Vestibulum elementum pretium mi in euismod. Maecenas eleifend
+	 	eu erat sit amet vulputate.
+	 		</p>
+	 		<p>
+				P3 Lorem ipsum dolor sit amet, consectetur adipiscing elit. 
+	 	Vestibulum elementum pretium mi in euismod. Maecenas eleifend
+	 	eu erat sit amet vulputate.
+	 		</p>
+	 		<p>
+				P3 Lorem ipsum dolor sit amet, consectetur adipiscing elit. 
+	 	Vestibulum elementum pretium mi in euismod. Maecenas eleifend
+	 	eu erat sit amet vulputate.
+	 		</p>
+	 		<p>
+				P3 Lorem ipsum dolor sit amet, consectetur adipiscing elit. 
+	 	Vestibulum elementum pretium mi in euismod. Maecenas eleifend
+	 	eu erat sit amet vulputate.
+	 		</p>
+	 		<p>
+				P3 Lorem ipsum dolor sit amet, consectetur adipiscing elit. 
+	 	Vestibulum elementum pretium mi in euismod. Maecenas eleifend
+	 	eu erat sit amet vulputate.
+	 		</p>
+	 		<p>
+				P3 Lorem ipsum dolor sit amet, consectetur adipiscing elit. 
+	 	Vestibulum elementum pretium mi in euismod. Maecenas eleifend
+	 	eu erat sit amet vulputate.
+	 		</p>
+
+		</div>
+
+
+	</body>
+</html>
